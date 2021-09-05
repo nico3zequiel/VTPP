@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Serif', serif; }
+
+body {
+  background-color: black;
+  padding-right: 30px;
+  padding-left: 30px; }
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 0;
+  padding: 0; }
+
+hr {
+  color: white;
+  height: 1px;
+  margin: auto; }
+
+.menuResponsive {
+  display: flex;
+  font-family: sans-serif;
+  width: 10%;
+  height: 9%;
+  position: fixed;
+  transition: .4s all;
+  z-index: 1; }
+
+.menuResponsive ul {
+  padding: 0;
+  text-align: left; }
+
+.menuResponsive:hover ul:last-of-type {
+  border-bottom: 1px solid white; }
+
+.menuResponsive li {
+  transition: .3s all; }
+
+.menuResponsive li:hover {
+  border-top: 1px solid white;
+  width: 100%; }
+
+.menuResponsive a {
+  list-style-type: none;
+  color: white;
+  transition: .3s all;
+  font-size: 0px;
+  padding: 0px; }
+
+.menuResponsive img {
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 30px;
+  height: 30px; }
+
+.menuResponsive img:hover {
+  height: 0px; }
+
+.menuResponsive:hover {
+  width: 20%;
+  height: 20%;
+  background-color: #4b0404; }
+
+.menuResponsive a:hover {
+  font-size: 20px;
+  color: silver;
+  display: block;
+  padding: 20px; }
+
+.logoPrincipal {
+  width: 700px;
+  height: 350px;
+  border-left: 50px; }
+
+.logoPrincipal img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: auto;
+  padding-right: 90px; }
+
+.encabezado {
+  width: 100%;
+  text-align: center; }
+
+.encabezado h1 {
+  font-weight: 100;
+  color: yellow;
+  margin-top: 10px;
+  font-size: 25px;
+  font-family: 'MedievalSharp', cursive; }
+
+.encabezado h2 {
+  font-weight: 100;
+  color: yellow;
+  margin-top: 60px;
+  font-size: 30px;
+  font-family: 'MedievalSharp', cursive; }
+
+.encabezado p {
+  margin-top: 10px;
+  padding: 20px;
+  color: silver;
+  text-align: center; }
+
+.contenedorMain {
+  width: 100%;
+  text-align: center; }
+
+.contenedorMain img {
+  width: 450px;
+  height: 300px;
+  margin: auto;
+  padding: 30px; }
+
+.contenedorDiv {
+  background-color: #2c0303;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-radius: 10px; }
