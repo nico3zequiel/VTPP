@@ -80,6 +80,7 @@ hr{color: white;
     padding: 20px;}
 
 .logoPrincipal{ 
+    display: grid;
     width: 700px;
     height: 350px;
     border-left: 50px;
@@ -134,11 +135,13 @@ hr{color: white;
 }
 
 .contenedorMain{
+    display: grid;
     width: 100%;
     text-align: center;
 }
 
 .contenedorMain img{
+    display: grid;
     width: 450px;
     height: 300px;
     margin: auto;
@@ -146,6 +149,7 @@ hr{color: white;
 }
 
 .contenedorDiv{
+    display: grid;
     background-color: rgb(44, 3, 3);
     margin-top: 20px;
     padding-top: 15px;

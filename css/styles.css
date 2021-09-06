@@ -71,6 +71,7 @@ hr {
   padding: 20px; }
 
 .logoPrincipal {
+  display: grid;
   width: 700px;
   height: 350px;
   border-left: 50px; }
@@ -114,16 +115,19 @@ hr {
   text-align: center; }
 
 .contenedorMain {
+  display: grid;
   width: 100%;
   text-align: center; }
 
 .contenedorMain img {
+  display: grid;
   width: 450px;
   height: 300px;
   margin: auto;
   padding: 30px; }
 
 .contenedorDiv {
+  display: grid;
   background-color: #2c0303;
   margin-top: 20px;
   padding-top: 15px;
