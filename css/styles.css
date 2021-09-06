@@ -107,6 +107,12 @@ hr {
   color: silver;
   text-align: center; }
 
+.encabezado a {
+  margin-top: 10px;
+  padding: 20px;
+  color: silver;
+  text-align: center; }
+
 .contenedorMain {
   width: 100%;
   text-align: center; }
