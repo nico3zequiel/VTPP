@@ -19,17 +19,31 @@
     <header>      
 
       <!--INICIO MENU DE NAVEGACION-->
-      <nav>
-        <div>
-        
-        <ul">
-          <li><a href="./index.html">General</a></li>
-          <li><a href="./pages/noticias.html">Noticias</a></li>
-          <li><a href="./pages/multimedia.html">Multimedia</a></li>
-          <li><a href="./pages/comunidad.html">Comunidad</a></li>
-          <li><a href="./pages/contacto.html">Contacto</a></li>
-        </ul>
-      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" href="#">Menú</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li  class="nav-item">
+              <a class="nav-link" href="#">General</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Noticias</a>
+            </li>
+            <li  class="nav-item">
+              <a class="nav-link" href="#">Multimedia</a>      
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Comunidad </a>
+            </li>
+            <li  class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>          
+        </div>
       </nav>
       <!--FIN MENU DE NAVEGACION-->
       
@@ -55,10 +69,13 @@
 
         <section class="contenedorMain">
 
-          <img src="./media/imagenes/imagenhistoria3.png"
-            alt="capturaHistoria"/>
+          <img class="img-fluid" src="./media/imagenes/imagenhistoria3.png"
+            alt="capturaHistoria"
+            height="auto"
+            max-width= 100%>
+            
 
-          <p>Una aventura épica, llena de guiños a juegos de diferentes generaciones y que tanto los jugadores mas jóvenes como los mas experimentados lograran captar.</p>
+          <p>Una aventura épica, llena de referencias a juegos de diferentes generaciones y que tanto los jugadores mas jóvenes como los mas experimentados lograran captar.</p>
         </section>
       </div>
       <hr>
@@ -72,7 +89,7 @@
             src="./media/imagenes/castle.png"
             alt="nivelCastillo"/>
           <p>
-            Niveles inspirados por los grandes juegos clásicos de la genetación de 8 y 16 bits, combinando plataformas y exploración.
+            Niveles inspirados por los grandes juegos clásicos de la generación de 8 y 16 bits, combinando plataformas y exploración.
           </p>
         </section>
       </div>
@@ -83,9 +100,7 @@
           Jugabilidad clasica en tiempos modernos
         </h2>
         <section class="contenedorMain">
-          <img
-            src="./media/imagenes/Imagen enemigos.png"
-            alt="enemigos"/>
+          <img src="./media/imagenes/Imagen enemigos.png" alt="enemigos"/>
           <p>
             Controles intuitivos, adaptados a la generación actual, que permiten el uso de diferentes tipos de armas y megia, sin dejar de ser sencillos de aprender.
           </p>
@@ -99,12 +114,12 @@
     <!--FIN PAGINA PRINCIPAL-->
     <!--INICIO FOOTER-->
     <footer>
-      <p>
+      <p class="encabezado">
         Segui mas de cerca el desarrollo desde:
       </p>
-      <a href="https://twitter.com/valeriapriestes?lang=es">Ir a Twitter</a>
-      <a href="https://www.youtube.com/channel/UC--BuvjesA39JuN4cZ5gxug">Ir a Youtube</a>
-      <a href="https://patreon.com/ValeriathePaganPriestess">Ir a Patreon</a>
+      <a class="encabezado" href="https://twitter.com/valeriapriestes?lang=es">Ir a Twitter</a>
+      <a class="encabezado" href="https://www.youtube.com/channel/UC--BuvjesA39JuN4cZ5gxug">Ir a Youtube</a>
+      <a class="encabezado" href="https://patreon.com/ValeriathePaganPriestess">Ir a Patreon</a>
     </footer>
     <!--FIN FOOTER-->
 
